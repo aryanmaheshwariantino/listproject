@@ -1,7 +1,5 @@
-package com.aryan.listproject.activity
+package com.aryan.listproject.fragments
 
-import Item
-import MyAdapter
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,17 +7,19 @@ import android.view.View
 import android.view.ViewGroup
 import com.aryan.listproject.R
 
-class Home : Fragment() {
+class Wallet : Fragment() {
 
-    private lateinit var adapter: MyAdapter
-    private lateinit var dataList: List<Item>
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        arguments?.let {
+        }
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
-        return view
+        return inflater.inflate(R.layout.fragment_wallet, container, false)
     }
 
 }

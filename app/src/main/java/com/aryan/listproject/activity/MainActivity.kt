@@ -5,6 +5,9 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.aryan.listproject.R
 import com.aryan.listproject.databinding.ActivityMainBinding
+import com.aryan.listproject.fragments.Home
+import com.aryan.listproject.fragments.Study
+import com.aryan.listproject.fragments.Wallet
 
 class MainActivity : AppCompatActivity() {
 

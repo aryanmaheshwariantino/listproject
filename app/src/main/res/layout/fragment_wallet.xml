@@ -5,7 +5,7 @@
     android:background="#160717"
 
     android:layout_height="match_parent"
-    tools:context=".activity.Wallet">
+    tools:context=".fragments.Wallet">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

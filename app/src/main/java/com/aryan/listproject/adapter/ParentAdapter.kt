@@ -8,7 +8,8 @@ import com.aryan.listproject.databinding.ItemInnerListBinding
 import com.aryan.listproject.models.ItemModel
 
 class ParentAdapter(private val dataList: List<List<ItemModel>>) : RecyclerView.Adapter<ParentAdapter.MyHolder>()  {
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) = MyHolder(ItemInnerListBinding.inflate(LayoutInflater.from(parent.context),parent,false))
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int) =
+        MyHolder(ItemInnerListBinding.inflate(LayoutInflater.from(parent.context),parent,false))
 
 
     override fun getItemCount() = dataList.size

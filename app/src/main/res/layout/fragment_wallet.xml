@@ -1,20 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="#160717"
-
     android:layout_height="match_parent"
+    android:background="#160717"
     tools:context=".fragments.Wallet">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:gravity="center"
+        android:id="@+id/walletTextView"
+        android:layout_width="154dp"
+        android:layout_height="55dp"
         android:textColor="@color/white"
-        android:textSize="30dp"
-        android:text="Wallet Fragment" />
+        android:textSize="40dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="135dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="$150.14"/>
 
-</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_marginLeft="180dp"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/walletTextView"
+        android:text="HOBs Wallet"/>
+
+    <ImageButton
+        android:id="@+id/firstImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/downbutton"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/walletTextView" />
+
+
+    <TextView
+        android:id="@+id/firstImageButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Deposit"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/firstImageButton"
+        app:layout_constraintTop_toBottomOf="@id/firstImageButton" />
+
+
+    <ImageButton
+        android:id="@+id/secondImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/vertical_top"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/firstImageButton"
+        app:layout_constraintTop_toBottomOf="@id/walletTextView" />
+
+    <TextView
+        android:id="@+id/secondImageButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Withdraw"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/secondImageButton"
+        app:layout_constraintTop_toBottomOf="@id/secondImageButton" />
+
+    <ImageButton
+        android:id="@+id/thirdImageButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/round_button"
+        android:src="@drawable/swapbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/secondImageButton"
+        app:layout_constraintTop_toBottomOf="@id/walletTextView" />
+
+    <TextView
+        android:id="@+id/thirdImageButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:text="Swap"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@id/thirdImageButton"
+        app:layout_constraintTop_toBottomOf="@id/thirdImageButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

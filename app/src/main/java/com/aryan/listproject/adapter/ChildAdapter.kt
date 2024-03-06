@@ -11,14 +11,15 @@ import com.aryan.listproject.models.ItemModel
 class ChildAdapter(private val dataList: List<ItemModel>) :
     RecyclerView.Adapter<ChildAdapter.MyViewHolder>() {
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int):
+            MyViewHolder {
         val binding = MaterialCardBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return MyViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         val data = dataList[position]
-        with(holder.binding){
+        holder.binding.apply  {
             imageview.setImageResource(data.image)
             title.text = data.bigtitle
             title2.text = data.title
@@ -29,7 +30,6 @@ class ChildAdapter(private val dataList: List<ItemModel>) :
             }
         }
     }
-// Scope function
     override fun getItemCount(): Int = dataList.size
 
     inner class MyViewHolder(val binding: MaterialCardBinding) : RecyclerView.ViewHolder(binding.root)

@@ -38,74 +38,74 @@ class Home : Fragment() {
                     "from any kind you like","Jordan wise","234k views . 3 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
                     "from any kind you like","Jordan wise","244k views . 2 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Morgan wise","254k views . 4 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
                     "from any kind you like","Happy wise","264k views . 5 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
                     "from any kind you like","Sad wise","274k views . 6 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
-                    "from any kind you like","Joy wise","284k views . 7 days ago"),
             ItemModel(R.drawable.image1,"Running machine game\n" +
-                    "from any kind you like","Cringe wise","294k views . 8 days ago"),
+                    "from any kind you like","Joy wise","284k views . 7 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
+                    "from any kind you like","Cringe wise","294k views . 8 days ago"),
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Hack wise","204k views . 9 days ago")
         ),listOf(
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
 
                     "from any kind you like","Jordan wise","234k views . 3 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
                     "from any kind you like","Jordan wise","244k views . 2 days ago"),
             ItemModel(R.drawable.image1,"Running machine game\n" +
                     "from any kind you like","Morgan wise","254k views . 4 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
                     "from any kind you like","Happy wise","264k views . 5 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Sad wise","274k views . 6 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
                     "from any kind you like","Joy wise","284k views . 7 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
                     "from any kind you like","Cringe wise","294k views . 8 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image1,"Running machine game\n" +
                     "from any kind you like","Hack wise","204k views . 9 days ago")
         ),listOf(
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image2,"Running machine game\n" +
 
                     "from any kind you like","Jordan wise","234k views . 3 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Jordan wise","244k views . 2 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
                     "from any kind you like","Morgan wise","254k views . 4 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
                     "from any kind you like","Happy wise","264k views . 5 days ago"),
             ItemModel(R.drawable.image1,"Running machine game\n" +
                     "from any kind you like","Sad wise","274k views . 6 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
                     "from any kind you like","Joy wise","284k views . 7 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Cringe wise","294k views . 8 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
                     "from any kind you like","Hack wise","204k views . 9 days ago")
         ),listOf(
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
 
                     "from any kind you like","Jordan wise","234k views . 3 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image1,"Running machine game\n" +
                     "from any kind you like","Jordan wise","244k views . 2 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image2,"Running machine game\n" +
                     "from any kind you like","Morgan wise","254k views . 4 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
                     "from any kind you like","Happy wise","264k views . 5 days ago"),
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image6,"Running machine game\n" +
                     "from any kind you like","Sad wise","274k views . 6 days ago"),
-            ItemModel(R.drawable.image2,"Running machine game\n" +
+            ItemModel(R.drawable.image7,"Running machine game\n" +
                     "from any kind you like","Joy wise","284k views . 7 days ago"),
             ItemModel(R.drawable.image1,"Running machine game\n" +
                     "from any kind you like","Cringe wise","294k views . 8 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
                     "from any kind you like","Hack wise","204k views . 9 days ago")
         ),listOf(
-            ItemModel(R.drawable.image1,"Running machine game\n" +
+            ItemModel(R.drawable.image5,"Running machine game\n" +
 
                     "from any kind you like","Jordan wise","234k views . 3 days ago"),
             ItemModel(R.drawable.image2,"Running machine game\n" +
